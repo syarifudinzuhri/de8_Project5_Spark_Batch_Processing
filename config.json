@@ -1,0 +1,25 @@
+{
+    "postgresql":{
+        "host":"172.28.80.1",
+        "db":"db_project5_sources",
+        "user":"postgres",
+        "pwd":12345,
+        "port":5432
+    },
+    
+    "warehouse":{
+        "host":"172.28.80.1",
+        "db":"db_project5_dwh",
+        "user":"postgres",
+        "pwd":12345,
+        "port":5432
+    },
+
+    "hadoop":{
+        "client":"http://172.28.80.1:9870"
+    },
+
+    "spark":{
+        "ip":"spark://User.localdomain:7077"
+    }
+}
